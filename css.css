@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Use a sans-serif font */
+    background-color: #f4f4f4; /* Set a light background color */
+}
+
+.container {
+    max-width: 800px; /* Set maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding around the content */
+}
+
+header {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 20px; /* Add padding to the header */
+    text-align: center; /* Center align text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add space between items */
+}
+
+nav ul li a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 18px; /* Increase font size for navigation links */
+}
+
+main {
+    padding: 20px; /* Add padding top and bottom */
+}
+
+footer {
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 20px; /* Add padding to the footer */
+    text-align: center; /* Center align text */
+}
+
+h1, h2 {
+    margin-bottom: 10px; /* Add space below headings */
+}
+
+p {
+    line-height: 1.6; /* Increase line height for better readability */
+}
+
+ul, ol {
+    margin-bottom: 15px; /* Add space below lists */
+}
+
+table {
+    width: 100%; /* Make table fill its container */
+    border-collapse: collapse; /* Collapse borders */
+    margin-bottom: 15px; /* Add space below table */
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Add borders to table cells */
+    padding: 8px; /* Add padding to table cells */
+}
+
+table caption {
+    font-weight: bold; /* Make caption bold */
+    margin-bottom: 10px; /* Add space below caption */
+}
+
+img {
+    display: block; /* Center align images */
+    margin: 0 auto; /* Center align images */
+    max-width: 100%; /* Make images responsive */
+}
+
+a {
+    color: #4CAF50; /* Green color for links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make links bold */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
